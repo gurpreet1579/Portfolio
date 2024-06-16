@@ -1,0 +1,16 @@
+.edu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-list-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.edu-item-container ul {
+    display: flex;
+    flex-direction: column;
+}

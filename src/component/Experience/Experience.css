@@ -1,0 +1,16 @@
+.exp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-item-container {
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.exp-item-container ul {
+    display: flex;
+    flex-direction: column;
+}

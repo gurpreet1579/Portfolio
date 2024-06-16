@@ -1,0 +1,7 @@
+.about-container {
+    /* width: 100%; */
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
