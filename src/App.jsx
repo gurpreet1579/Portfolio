@@ -6,13 +6,13 @@ import Footer from './component/Footer/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <Header />
       <div className="App">
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/Portfolio" element={<Home />} />
+            <Route path="/Portfolio/*" element={<NotFound />} />
           </Routes>
         </main>
       </div>
