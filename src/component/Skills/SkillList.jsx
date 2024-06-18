@@ -1,13 +1,12 @@
 import React from 'react';
+// import './Skill.css';
 
 const SkillsList = ({ title, items }) => (
-    <div>
-        <h1>{title}</h1>
-        <ul>
-            {items.map((item, index) => (
-                <li key={index}>{item}</li>
-            ))}
-        </ul>
+    <div className='skills-container'>
+        <h1 className='mb-5'>{title}</h1>
+        {items.map((item, index) => (
+            <button type="button" key={index} className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">{item}</button>
+        ))}
     </div>
 );
 

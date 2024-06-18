@@ -1,0 +1,31 @@
+.skills-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-container h1 {
+    font-size: 1.8em;
+    color: #5CA1EA;
+    margin-bottom: 15px;
+}
+
+.skills-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-item {
+    background-color: #5CA1EA;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 12px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.skill-item:hover {
+    background-color: #4a8ec9;
+}

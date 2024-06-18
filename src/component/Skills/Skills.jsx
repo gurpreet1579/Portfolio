@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { skills, toolsAndDatabases, softSkills } from '../../data/data.js';
 import SkillsList from './SkillList';
+// import './Skill.css';
 
 export default function Skills() {
     const [skillsState, setSkills] = useState(skills);

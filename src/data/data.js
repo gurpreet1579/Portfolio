@@ -3,6 +3,7 @@ export const contact =
         name: 'Gurpreet Singh',
         address: 'Toronto,ON',
         mobile: '519-277-1579',
+        email:'gurpreetkharoud1579@gmail.com',
         linkedIn: 'https://www.linkedin.com/in/gurpreet1579/',
         githubLink: 'https://github.com/gurpreet1579/'
     }
