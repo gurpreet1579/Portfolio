@@ -14,7 +14,7 @@ const Contact = () => {
                     GET <mark className="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">IN</mark> TOUCH
                 </h1>
                 <div className="space-y-4 flex justify-center items-center">
-                    <div className="w-full flex flex-row justify-around items-center p-6 ">
+                    <div className="w-full flex flex-col  lg:flex-row justify-around items-center p-6 ">
                         {/* <img className="mx-10 w-24 h-24 mb-3 shadow-lg rounded-full" src="path/to/your/image.jpg" alt="Profile" /> */}
                         <div>
                             <div className="flex items-center mb-1 text-xl font-medium text-gray-900 dark:text-white">
@@ -30,8 +30,8 @@ const Contact = () => {
                                 {contactInfo.mobile}
                             </div>
                         </div>
-                        <div>
-                            <div className="flex items-center mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                        <div className="flex flex-row lg:flex-col lg:block hidden">
+                            <div className="flex items-center mb-1 mr-4 text-xl font-medium text-gray-900 dark:text-white">
                                 <FontAwesomeIcon icon={faLinkedinIn} className="mr-2" />
                                 <a href={contactInfo.linkedIn} className="text-blue-600 dark:text-blue-400" target="_blank" rel="noopener noreferrer">
                                     LinkedIn

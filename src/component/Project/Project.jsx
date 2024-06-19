@@ -19,13 +19,5 @@ const Project = () => {
             </section>
         </>
     )
-    // return <>
-    //     <div className="project-container">
-
-    //         <h1>Projects</h1>
-    //         <ProjectItem projectItems={projectItems}></ProjectItem>
-
-    //     </div>
-    // </>
 }
 export default Project;

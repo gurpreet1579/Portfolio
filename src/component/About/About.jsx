@@ -10,12 +10,12 @@ const About = () => {
                         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">Software developer with around 1.5 years of experience seeking career opportunities in front-end and back-end development.</p>
                     </div>
                 </div>
-                <div className=" space-x-4 px-4 py-8 bg-gray-100">
-                    <h1 class="text-center mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl md:text-5xl dark:text-white">
-                        ABOUT <mark class="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">ME</mark>
+                <div className="px-4 py-8 bg-gray-100">
+                    <h1 className="text-center mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl md:text-5xl dark:text-white">
+                        ABOUT <mark className="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">ME</mark>
                     </h1>
-                    <div className='flex justify-center'>
-                        <div className="w-full max-w-[calc(50% - 16px)] p-6 ">
+                    <div className="flex flex-col lg:flex-row justify-center space-y-6 lg:space-y-0 lg:space-x-4">
+                        <div className="w-full lg:max-w-[calc(50%-16px)] p-6">
                             <a href="#" className="text-blue-700 dark:text-blue-300 hover:underline">
                                 <h2 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white">Get to know me!</h2>
                             </a>
@@ -33,11 +33,10 @@ const About = () => {
                                 </svg>
                             </a>
                         </div>
-                        <div className="max-w-[calc(50% - 16px)] p-6 ">
+                        <div className="w-full lg:max-w-[calc(50%-16px)] p-6">
                             <Skills />
                         </div>
                     </div>
-
                 </div>
             </section>
         </>
